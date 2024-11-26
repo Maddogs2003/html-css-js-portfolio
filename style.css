@@ -161,12 +161,11 @@ section{
     height: 80vh;
 }
 
-.section_pic-container{
+.section__pic-container{
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border-radius: 50%;
 }
 
 .section__text{
@@ -263,9 +262,7 @@ section{
 }
 
 .about-pic{
-    border-radius : 2rem;
-    height: 400px;
-    width: 400px;
+    border-radius : 2rem;   
 }
 
 .arrow {
@@ -286,13 +283,13 @@ section{
 
 .section-container {
     gap: 4rem;
-    height: 80%;
+    height: 60%;
 }
 
 .section__pic-container {
     height : 400px;
     width: 400px;
-    margin : auto 0;
+    margin: auto 0;
 }
 
 /*Experience Section*/

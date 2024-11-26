@@ -22,7 +22,7 @@
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
-    #profile, section-container{
+    #profile, .section-container{
         display : block;
     }
     .arrow {
@@ -32,14 +32,14 @@
         height: fit-content;
     }
     section {
-        margin: 0.5%;
+        margin: 0 5%;
     }
     .section__pic-container{
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .about-containers {
+    .about-containers{
         margin-top: 0;
     }
 }
@@ -59,13 +59,13 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers, .contact-info-upper-container, .btn-container {
+    .about-containers, .contact-info-upper-container, .btn-container{
         flex-wrap: wrap;
     }
     .contact-info-container{
         margin : 0;
     }
-    .contact-info-upper-container p, .nav-links li a{
+    .contact-info-container p, .nav-links li a{
         font-size: 1rem;
     }
     .experience-sub-title{
@@ -81,7 +81,7 @@
     }
     .section__pic-container{
         width: auto;
-        height: 46vW;
+        height: 46vw;
         justify-content: center;
     }
     .section__text__p2{
