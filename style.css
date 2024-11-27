@@ -250,11 +250,10 @@ section{
 .about-containers{
     gap:2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 .about-details-container{
-    justify-content: center;
+    margin-top: 2rem;
     flex-direction: column;
 }
 
@@ -264,6 +263,7 @@ section{
 
 .about-pic{
     border-radius : 2rem;   
+    display: flex;
 }
 
 .arrow {
@@ -273,7 +273,7 @@ section{
 }
 
 .details-container{
-    padding: 1.5rem;
+    padding: 2rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -285,13 +285,7 @@ section{
 
 .section-container {
     gap: 4rem;
-    height: 60%;
-}
-
-.section__pic-container {
-    height : 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 80%;
 }
 
 .underline{
@@ -302,6 +296,13 @@ section{
 .text-container{
     text-align: justify;
     text-align-last: left;
+}
+
+.section__pic-container_2 {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: 2rem 0;
 }
 
 /*competence Section*/
