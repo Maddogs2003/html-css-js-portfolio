@@ -12,16 +12,15 @@
         <!-- <div class="logo">Gabriel Maille</div> -->
         <div>
             <ul class="nav-links">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#competence">Compétences</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Me Contacter</a></li>
+                <li><a href="#about" class="bold blue">À propos</a></li>
+                <li><a href="#competence" class="bold blue">Compétences</a></li>
+                <li><a href="#projects" class="bold blue">Projets</a></li>
+                <li><a href="#contact" class="bold blue">Me Contacter</a></li>
             </ul>
         </div>
     </nav>
     <!-- Menu style hamburger pour la version mobile/fenêtre réduite -->
     <nav id="hamburger-nav">
-        <div class="logo">Gabriel Maille</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -29,34 +28,33 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#about" class="blue" onclick="toggleMenu()">À propos</a></li>
                 <li><a href="#competence" onclick="toggleMenu()">Compétences</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Me Contacter</a></li>
             </div>
 
         </div>
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="assets/profile_pic.jpg" alt="Profile Picture">
+            <img src="assets/profile_pic.jpg" alt="Profile Picture" class="profil-pic">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Bonjour, je suis</p>
-            <h1 class="title">Gabriel Maille</h1>
-            <p class="section__text__p2">Étudiant en Master</p>
+            <p class="section__text__p1 lightblue">Bonjour, je suis</p>
+            <h1 class="title white">Gabriel Maille</h1>
+            <p class="section__text__p2 lightblue">Étudiant en Master</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/CVGabrielMaille.pdf')">
+                <button class="btn btn-color-2 white" onclick="window.open('./assets/CVGabrielMaille.pdf')">
                 CV
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1 white" onclick="location.href='./#contact'">
                 Contactez Moi
                 </button>
             </div>  
             <div id ="social-container">
-                <!-- Mettre le lien linkedin à jour ! -->
-                <img src="./assets/linkedin.png"alt="My LinkedIn profile" class="icon" onclick="location.href='https://github.com/Maddogs2003'">
-                <img src="./assets/github.png"alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/Maddogs2003'">
+                <img src="./assets/linkedinwhite.png"alt="My LinkedIn profile" class="icon" onclick="location.href='linkedin.com/in/gabriel-maille'">
+                <img src="./assets/githubwhite.png"alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/Maddogs2003'">
             </div>
         </div>
     </section>
@@ -77,9 +75,7 @@
                         class="icon">
                         <h3>Experiences</h3>
                         <br><p class="underline">Van Heck Interpieces France ,</p>
-                        <p>Les Ulis — Magasinier
-                            Chauffeur
-                            04/07/2022 à 19/08/2022
+                        <p>Les Ulis — Magasinier Chauffeur : 04/07/2022 à 19/08/2022
                             En tant que Magasinier Chauffeur, ma tâche consistait à travailler en
                             équipe ou de manière autonome an de réaliser ecacement des
                             commandes de pièces automobiles et d'en eectuer la livraison de
@@ -347,7 +343,7 @@
                 <img src="./assets/linkedin.png"
                 alt ="LinkedIn icon"
                 class="icon contact-icon">
-                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                <p><a href="linkedin.com/in/gabriel-maille">LinkedIn</a></p>
             </div>
         </div>
     </section>
