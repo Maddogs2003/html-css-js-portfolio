@@ -245,15 +245,16 @@ section{
 
 #about{
     position: relative;
+    margin-top: 5rem;
 }
 
 .about-containers{
     gap:2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .about-details-container{
-    margin-top: 2rem;
     flex-direction: column;
 }
 
