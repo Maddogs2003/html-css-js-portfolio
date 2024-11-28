@@ -283,6 +283,7 @@ section{
 #about{
     position: relative;
     margin-top: 5rem;
+    height: fit-content;
 }
 
 .about-containers{
@@ -346,6 +347,7 @@ section{
 /*competence Section*/
 
 #competence{
+    margin-top: 5rem;
     position: relative;
 }
 
