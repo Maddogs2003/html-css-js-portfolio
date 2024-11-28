@@ -50,10 +50,12 @@ a {
 }
 
 a:hover {
-    color: #88adf7;
+    /*color: #88adf7;*/
+    color : rgb(85, 85, 85);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: #CBDBFA;
+    text-decoration-color: rgb(125, 125, 125);
+    /*text-decoration-color: #CBDBFA;*/
 }
 
 .logo{
@@ -214,9 +216,12 @@ section{
 .blue{
     color: #4A84F7;
 }
+.black{
+    color: rgb(30, 30, 30);
+}
 
 .bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* ICONS */
@@ -254,6 +259,7 @@ section{
     color:  #4A84F7;
     font-weight: bold;
 }
+
 .btn-color-2:hover{
     background: #325fb9;
     color: white;
