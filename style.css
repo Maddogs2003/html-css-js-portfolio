@@ -111,6 +111,9 @@ a:hover {
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
+.menu-links a:hover {
+    color:black;
+}
 
 .menu-links li {
     list-style: none;
@@ -163,7 +166,7 @@ section{
     display: flex;
     justify-content: center;
     gap : 5rem;
-    height: 80vh;
+    height: 90vh;
 }
 
 .section__pic-container{
@@ -213,15 +216,20 @@ section{
     color: #CBDBFA;
 }
 
+.lightblue2{
+    color: #6381bd;
+}
+
 .blue{
     color: #4A84F7;
 }
+
 .black{
     color: rgb(30, 30, 30);
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* ICONS */
@@ -300,7 +308,7 @@ section{
     display: flex;
 }
 
-.about-pic{
+.about-pic{ 
     border-radius : 2rem;   
     display: flex;
 }
@@ -318,6 +326,16 @@ section{
     border-radius: 2rem;
     border: rgb(53,53,53)0.1rem solid;
     border-color: rgb(163,163,163);
+    text-align: justify;
+    text-align-last: center;
+}
+
+.details-container-2{
+    padding: 2rem;
+    flex: 1;
+    background:white;
+    border-radius: 2rem;
+    border: rgb(163,163,163)0.1rem solid;
     text-align: justify;
     text-align-last: center;
 }
@@ -352,7 +370,7 @@ section{
 }
 
 .competence-sub-title{
-    color: rgb(85, 85, 85);
+    color:black;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -394,11 +412,6 @@ article.icon{
     position: relative;
 }
 
-.color-container {
-    border-color: rgb(163,163,163);
-    background: rgb(250,250,250);
-}
-
 .project-img{
     border-radius: 2rem;
     width: 90%;
@@ -415,6 +428,11 @@ article.icon{
     border-color: rgb(163,163,163);
 }
 
+.project-btn:hover{
+    background-color:#4A84F7;
+    color: white;
+}
+
 /*Contact Section*/
 
 #contact{
@@ -422,14 +440,15 @@ article.icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin : 0;
+    background-color: #4A84F7;
 }
 
 .contact-info-upper-container{
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53,53,53)0.1rem solid;
-    border-color: rgb(163,163,163);
+    border: white 0.1rem solid;
     background: (250,250,250);
     margin: 2rem auto;
     padding: 0.5rem;
@@ -453,6 +472,11 @@ article.icon{
 
 .email-icon {
     height: 2.5rem;
+}
+
+.ainblue:hover {
+    color:#1b408b;
+    text-decoration-color:#1b408b;
 }
 
 /* FOOTER */
