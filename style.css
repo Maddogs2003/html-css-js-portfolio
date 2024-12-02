@@ -19,6 +19,10 @@ p{
     color: rgb(85, 85, 85);
 }
 
+h3{
+    color: rgb(30, 30, 30);
+}
+
 /* Transition */
 
 a, .btn {
@@ -44,7 +48,7 @@ nav {
 }
 
 a {
-    color:black;
+    color:rgb(30, 30, 30);
     text-decoration: none;
     text-decoration-color:white;
 }
@@ -192,6 +196,7 @@ section{
     margin-bottom: 1rem;
 }
 .title{
+    color : rgb(30, 30, 30);
     font-size: 3rem;
     text-align: center;
 }
@@ -217,7 +222,7 @@ section{
 }
 
 .lightblue2{
-    color: #547bc8;
+    color: #5782d6;
 }
 
 .blue{
@@ -269,18 +274,16 @@ section{
 }
 
 .btn-color-2:hover{
-    background: #325fb9;
+    background:#2e61c7;
     color: white;
+    border: rgb(255,255,255)0.1rem solid;
 }
 .btn-color-1:hover{
-    background : #325fb9;
+    background : #2e61c7;
     color: white;
 }
 .btn-color-2{
     background :none;
-}
-.btn-color-2:hover{
-    border: rgb(255,255,255)0.1rem solid;
 }
 .btn-container {
     gap:1rem;
@@ -370,7 +373,7 @@ section{
 }
 
 .competence-sub-title{
-    color:black;
+    color:rgb(30, 30, 30);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -420,16 +423,27 @@ article.icon{
 
 .project-title{
     margin: 1rem;
-    color: black;
+    color: rgb(30, 30, 30);
 }
 
 .project-btn{
-    color: black;
+    color: white;
+    background-color: #4A84F7;
+    border : none;
+}
+
+.project-btn-2{
+    color:rgb(30, 30, 30);
     border-color: rgb(163,163,163);
 }
 
 .project-btn:hover{
-    background-color:#4A84F7;
+    background-color:#2e61c7;
+    color: white;
+}
+
+.project-btn-2:hover{
+    background : #2e61c7;
     color: white;
 }
 
@@ -475,8 +489,8 @@ article.icon{
 }
 
 .ainblue:hover {
-    color:#1b408b;
-    text-decoration-color:#1b408b;
+    color:#9cbdff;
+    text-decoration-color:#819fdb;
 }
 
 /* FOOTER */
