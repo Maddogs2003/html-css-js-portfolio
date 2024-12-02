@@ -152,10 +152,11 @@ a:hover {
 
 section{
     padding-top: 4vh;
-    height : 96vh;
+    height : fit-content;
     margin : 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    margin-bottom: 15vh;
 }
 
 .section-container{
@@ -445,6 +446,19 @@ article.icon{
 .project-btn-2:hover{
     background : #2e61c7;
     color: white;
+}
+
+.details-container-project{
+    padding: 2rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53)0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: justify;
+    text-align-last: center;
+    max-height: 470px;
+    max-width: 380px;
 }
 
 /*Contact Section*/
