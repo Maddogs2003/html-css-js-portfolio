@@ -343,6 +343,14 @@ section{
     text-align: justify;
     text-align-last: center;
 }
+.details-container-3{
+    padding: 2rem;
+    flex: 1;
+    background:white;
+    border-radius: 2rem;
+    border: rgb(163,163,163)0.1rem solid;
+    text-align: justify;
+}
 
 .section-container {
     gap: 4rem;
